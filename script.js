@@ -1,9 +1,10 @@
 function shortcut(s1, s2) {
   // your code here
-	if (str1.length === 0 || str2.length === 0) {
+	
+	if (s1.length === 0 || s2.length === 0) {
         return '';
     } else {
-        return str1[0].toUpperCase() + str2[0].toLowerCase();
+        return s1[0].toUpperCase() + s2[0].toLowerCase();
     }
 }
 // Do not change the code below.
